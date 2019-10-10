@@ -1,8 +1,8 @@
 # How to connect to the KRSP database using R and RStudio
 
 ## REMINDERS:
-Username and password information should never be contained within your code.
-You should not downlaod a local instance of the database, but instead your code should pull directly from the cloud instance of the database.
+* Username and password information should never be contained within your code.
+* You should not downlaod a local instance of the database, but instead your code should pull directly from the cloud instance of the database.
 
 
 The preferred method to connect to the database is by creating a cnf file, storing it on your computer and using the krsp_connect function in the krsp package.
@@ -19,6 +19,7 @@ There is currently a KNOWN PROBLEM associated with this approach that seems to b
 This Mac Keychain work-around now seems to also no longer be working.
 
 2.  Use askForPassword in R Studio.
+
 krsp_connect (host = "krsp.cepb5cjvqban.us-east-2.rds.amazonaws.com",
                      dbname ="krsp",
                      user= rstudioapi::askForPassword("Username"),
