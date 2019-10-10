@@ -9,6 +9,7 @@ The preferred method to connect to the database is by creating a cnf file, stori
 For instructions on this see here: https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md#r
 
 ## Preferred Connection:
+
 krsp_connect(group="krsp-aws")
 
 There is currently a KNOWN PROBLEM associated with this approach that seems to be cuased by particular operating systems (i.e. not a problem with the database, KRSP package, RStudio, etc.).
@@ -20,12 +21,9 @@ This Mac Keychain work-around now seems to also no longer be working.
 
 2.  Use askForPassword in R Studio.
 
-krsp_connect (host = "krsp.cepb5cjvqban.us-east-2.rds.amazonaws.com",
-
+                     krsp_connect (host = "krsp.cepb5cjvqban.us-east-2.rds.amazonaws.com", 
                      dbname ="krsp",
-                     
                      user= rstudioapi::askForPassword("Username"),
-                     
                      password = rstudioapi::askForPassword("Password"))
          
 This will result in a pop-up box in RStudio that will ask the user to input their username and password at this place in the code.  This is a good work-around and what McAdam currently uses.  The downside of this is that Rmd files will not knit to PDF, etc. when interrupted by this sort of interactive interface.
