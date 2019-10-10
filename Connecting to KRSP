@@ -1,4 +1,4 @@
-How to connect to the KRSP database using R and RStudio
+#How to connect to the KRSP database using R and RStudio
 
 REMINDERS: 
 Username and password information should never be contained within your code.
