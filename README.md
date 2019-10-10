@@ -17,3 +17,7 @@ Best Practices:
 
 3.  Every year we identify and correct many errors in the database.  As a database user, it is essential that you track all errors that you find in the database and communicate them here (https://github.com/KluaneRedSquirrelProject/KRSP-Database-Errors/issues)
 
+4.  You should NOT download a copy of the databse to your local computer and work from that.  You should instead write your code to pull directly from the cloud instance of the database.  This ensures that all code is completely transferrable to others and prevents any accidental changes to local instances of the database.
+
+
+
