@@ -41,4 +41,4 @@ This will result in a pop-up box in RStudio that will ask the user to input thei
 
 
 ##  krsp versus krsp2019
-Note that in any connection to the database the user can connect to the long-term database (e.g. 'krsp') or the cloud version of the annual database (e.g. 'krsp2019'), which McAdam updates as data dumps are sent from the Yukon.  Users are tyoically given access to both the long-term database and the annual database in their priviledges.  To connect to the annual databsae simply replace the name of the database (e.g. 'krsp2019') for 'krsp' in the code.
+Note that in any connection to the database the user can connect to the long-term database (e.g. `krsp`) or the cloud version of the annual database (e.g. `krsp2019`), which McAdam updates as data dumps are sent from the Yukon.  Users are tyoically given access to both the long-term database and the annual database in their priviledges.  To connect to the annual databsae simply replace the name of the database (e.g. `krsp2019`) for `krsp` in the code.
