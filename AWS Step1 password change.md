@@ -1,3 +1,4 @@
+# Creating a Connection in Workbench and Changing Password
 1.	Download MySQL Workbench
 2.	Upon opening SQL Workbench, click (+) next to My SQL Connections to add a new connection. This will be different from the local connection you may already be using for the KRSP database you have saved on your hard drive in previous years.
 3.	When the popup appears enter the following:
