@@ -9,8 +9,9 @@ The preferred method to connect to the database is by creating a cnf file, stori
 For instructions on this see here: https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md#r
 
 ## Preferred Connection:
-
+'''r
 krsp_connect(group="krsp-aws")
+'''
 
 There is currently a KNOWN PROBLEM associated with this approach that seems to be cuased by particular operating systems (i.e. not a problem with the database, KRSP package, RStudio, etc.).
 
