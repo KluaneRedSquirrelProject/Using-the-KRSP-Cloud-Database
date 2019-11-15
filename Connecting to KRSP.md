@@ -5,7 +5,8 @@
 * You should not downlaod a local instance of the database, but instead your code should pull directly from the cloud instance of the database.
 
 
-The preferred method to connect to the database is by creating a cnf file, storing it on your computer and using the krsp_connect function in the krsp package.
+## Old System
+We used to connect to the database by creating a cnf file, storing it on your computer and using the krsp_connect function in the krsp package.
 For instructions on this see [here](https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md#r)
 
 ## Preferred Connection:
@@ -15,7 +16,12 @@ krsp_connect(group="krsp-aws")
 
 There is currently a KNOWN PROBLEM associated with this approach that seems to be cuased by particular operating systems (i.e. not a problem with the database, KRSP package, RStudio, etc.).
 
-## Possible Work-Arounds:
+## New Solution
+
+
+
+
+## Other Possible Work-Arounds:
 1. Use Mac Keychain
 ```r
 install.packages("keyring")
