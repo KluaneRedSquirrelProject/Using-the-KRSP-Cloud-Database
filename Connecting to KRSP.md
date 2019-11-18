@@ -8,8 +8,6 @@
 ## Old System
 We used to connect to the database by creating a cnf file, storing it on your computer and using the krsp_connect function in the krsp package.
 For instructions on this see [here](https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md#r)
-
-## Preferred Connection:
 ```r
 krsp_connect(group="krsp-aws")
 ```
