@@ -9,7 +9,11 @@ install.packages("devtools")
 devtools::install_github("KluaneRedSquirrelProject/krsp")
 ```
 
-More information on getting set-up with the database can be found [here](https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md)
+Instructions on how to access the database can be found [here] (https://github.com/KluaneRedSquirrelProject/Using-the-KRSP-Cloud-Database/blob/master/Connecting%20to%20KRSP.md)
+
+Information for adminstrators (e.g. McAdam) on how to set up an AWS instance of the database can be found [here](https://github.com/KluaneRedSquirrelProject/krsp/blob/master/vignettes/mysql-aws.md)
+
+
 
 
 ## Best Practices:
